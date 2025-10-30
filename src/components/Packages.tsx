@@ -5,37 +5,70 @@ import { Check } from "lucide-react";
 
 const packages = [
   {
-    name: "Temel - En Ucuz IPTV",
-    price: "99",
-    features: ["500+ Kanal", "HD Kalite", "1 Cihaz", "Destek"],
+    name: "6 Aylık IPTV Paketi",
+    price: "800",
+    subtitle: "6 Ay Premium IPTV",
+    features: [
+      "Premium Kanallar",
+      "Spor Kanalları",
+      "Belgesel Kanalları",
+      "Film & Dizi Kanalları",
+      "7 Gün İçinde Geri İade",
+      "7/24 Teknik Destek"
+    ],
   },
   {
-    name: "Standart - Donmayan IPTV",
-    price: "149",
-    features: ["2000+ Kanal", "HD Kalite", "2 Cihaz", "7/24 WhatsApp Destek", "EPG Rehberi"],
-  },
-  {
-    name: "Premium - En İyi IPTV",
-    price: "249",
-    features: ["5000+ Kanal", "Donmayan 4K", "3 Cihaz", "Öncelikli Destek", "EPG + VOD", "Lig TV + Bein Sports"],
+    name: "12 Aylık IPTV Paketi",
+    price: "1.200",
+    subtitle: "12 Ay Premium IPTV",
+    features: [
+      "Premium Kanallar",
+      "Spor Kanalları",
+      "Belgesel Kanalları",
+      "Film & Dizi Kanalları",
+      "7 Gün İçinde Geri İade",
+      "7/24 Teknik Destek"
+    ],
     popular: true,
   },
   {
-    name: "VIP - Premium IPTV",
-    price: "399",
-    features: ["10.000+ Kanal", "Donmayan 4K UHD", "5 Cihaz", "VIP WhatsApp Destek", "Tüm Spor Kanalları", "Film + Dizi Arşivi"],
+    name: "24 Aylık IPTV Paketi",
+    price: "2.000",
+    subtitle: "24 Ay Premium IPTV",
+    features: [
+      "Premium Kanallar",
+      "Spor Kanalları",
+      "Belgesel Kanalları",
+      "Film & Dizi Kanalları",
+      "7 Gün İçinde Geri İade",
+      "7/24 Teknik Destek"
+    ],
   },
   {
-    name: "Yıllık Pro - Avantajlı",
-    price: "2.499",
-    subtitle: "12 Aylık IPTV Üyelik",
-    features: ["5000+ Kanal", "Donmayan 4K", "3 Cihaz", "12 Ay IPTV", "Öncelikli Destek"],
+    name: "36 Aylık IPTV Paketi",
+    price: "2.900",
+    subtitle: "36 Ay Premium IPTV",
+    features: [
+      "Premium Kanallar",
+      "Spor Kanalları",
+      "Belgesel Kanalları",
+      "Film & Dizi Kanalları",
+      "7 Gün İçinde Geri İade",
+      "7/24 Teknik Destek"
+    ],
   },
   {
-    name: "Yıllık VIP - En Kapsamlı",
-    price: "3.999",
-    subtitle: "12 Aylık Premium",
-    features: ["10.000+ Kanal", "Donmayan 4K UHD", "5 Cihaz", "Yıllık IPTV Test", "VIP WhatsApp", "Özel Paketler"],
+    name: "Süresiz Ömür Boyu",
+    price: "6.000",
+    subtitle: "Ömür Boyu Premium IPTV",
+    features: [
+      "Premium Kanallar",
+      "Spor Kanalları",
+      "Belgesel Kanalları",
+      "Film & Dizi Kanalları",
+      "7 Gün İçinde Geri İade",
+      "7/24 Teknik Destek"
+    ],
   },
 ];
 
