@@ -5,6 +5,21 @@ import { Check } from "lucide-react";
 
 const packages = [
   {
+    name: "KAMPANYA: 2 x 12 Ay",
+    price: "2.000",
+    subtitle: "2 Cihaz - 12 Ay Premium IPTV",
+    features: [
+      "2 Cihaz Desteği",
+      "Premium Kanallar",
+      "Spor Kanalları",
+      "Belgesel Kanalları",
+      "Film & Dizi Kanalları",
+      "7 Gün İçinde Geri İade",
+      "7/24 Teknik Destek"
+    ],
+    campaign: true,
+  },
+  {
     name: "6 Aylık IPTV Paketi",
     price: "800",
     subtitle: "6 Ay Premium IPTV",
@@ -97,7 +112,14 @@ export default function Packages() {
               transition={{ delay: i * 0.08 }}
               className="group relative flex h-full"
             >
-              {pkg.popular && (
+              {pkg.campaign && (
+                <div className="absolute -top-4 left-1/2 z-10 -translate-x-1/2">
+                  <div className="rounded-full bg-gradient-to-r from-red-600 to-pink-600 px-6 py-2 text-xs font-black uppercase tracking-wide text-white shadow-lg shadow-red-600/30 animate-pulse">
+                    🔥 KAMPANYA
+                  </div>
+                </div>
+              )}
+              {pkg.popular && !pkg.campaign && (
                 <div className="absolute -top-4 left-1/2 z-10 -translate-x-1/2">
                   <div className="rounded-full bg-orange-600 px-6 py-2 text-xs font-black uppercase tracking-wide text-white">
                     Popüler
@@ -106,7 +128,9 @@ export default function Packages() {
               )}
 
               <div className={`flex w-full flex-col rounded-2xl border-2 bg-white p-8 transition-all duration-300 ${
-                pkg.popular
+                pkg.campaign
+                  ? 'border-red-600 shadow-xl shadow-red-600/20 bg-gradient-to-br from-red-50 to-pink-50'
+                  : pkg.popular
                   ? 'border-orange-600 shadow-xl shadow-orange-600/10'
                   : 'border-slate-200 shadow-lg hover:border-slate-300 hover:shadow-xl'
               }`}>
@@ -146,12 +170,14 @@ export default function Packages() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`mt-auto flex w-full items-center justify-center rounded-xl py-4 font-bold transition-all ${
-                    pkg.popular
+                    pkg.campaign
+                      ? "bg-gradient-to-r from-red-600 to-pink-600 text-white hover:from-red-700 hover:to-pink-700 shadow-lg shadow-red-600/30"
+                      : pkg.popular
                       ? "bg-orange-600 text-white hover:bg-orange-700"
                       : "bg-slate-900 text-white hover:bg-slate-800"
                   }`}
                 >
-                  Satın Al
+                  {pkg.campaign ? "🎉 Kampanyadan Yararlan" : "Satın Al"}
                 </a>
               </div>
             </motion.div>

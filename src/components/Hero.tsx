@@ -108,7 +108,7 @@ export default function Hero() {
             <div className="flex items-center gap-4 sm:gap-6 md:gap-8 overflow-x-auto">
               <div className="flex-shrink-0">
                 <p className="mb-1 text-2xl sm:text-3xl md:text-4xl font-black tabular-nums text-slate-900">
-                  <Counter target={10000} />+
+                  <Counter target={60000} />+
                 </p>
                 <p className="text-[10px] sm:text-xs font-bold uppercase tracking-wider sm:tracking-widest text-slate-500">Kanal</p>
               </div>
