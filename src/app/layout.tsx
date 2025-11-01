@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     siteName: "Tulya IPTV",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Tulya IPTV - Premium IPTV",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "Tulya IPTV - Premium IPTV Hizmetleri",
     description:
       "HD kalitesinde binlerce kanal, kesintisiz yayın.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.webp"],
   },
   robots: {
     index: true,
@@ -79,6 +79,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://www.tulyaiptv.com",
+  },
+  verification: {
+    google: "4DpDjqUi8gFMVAmeHI3ecoozocYDPkwjfMCOslatS34",
   },
 };
 
