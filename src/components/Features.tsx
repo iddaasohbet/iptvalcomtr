@@ -6,7 +6,7 @@ import { Trophy, Tv, Smartphone, Zap, Shield, Headphones } from "lucide-react";
 const features = [
   {
     icon: Trophy,
-    title: "Lig TV & Bein Sports IPTV",
+    title: "Premium Spor Kanalları",
     description: "Tüm lig maçları canlı. Donmayan IPTV ile kesintisiz spor yayını",
   },
   {
@@ -21,13 +21,13 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Donmayan IPTV 2024",
-    description: "En ucuz IPTV paketleri, %99.9 uptime garantisi",
+    title: "IPTV Satın Al 2025-2026",
+    description: "IPTV satın al, en ucuz IPTV paketleri, %99.9 uptime garantisi",
   },
   {
     icon: Shield,
-    title: "Güvenli IPTV Al",
-    description: "SSL şifreli, güvenli ödeme. IPTV satın al işlemi korumalı",
+    title: "Güvenli IPTV Satın Al",
+    description: "IPTV satın al güvenle. SSL şifreli, korumalı ödeme sistemi",
   },
   {
     icon: Headphones,
@@ -42,12 +42,12 @@ export default function Features() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-20 text-center">
           <h2 className="mb-4 text-5xl font-black text-slate-900">
-            En İyi IPTV Özellikleri
+            IPTV Satın Al - En İyi Özellikler
           </h2>
           <p className="text-xl text-slate-600">
-            <strong className="font-bold text-slate-900">Donmayan IPTV 2024</strong> teknolojisi. 
-            IPTV satın al, <strong className="font-bold text-slate-900">IPTV test yayını</strong> iste. 
-            WhatsApp ile anında destek.
+            <strong className="font-bold text-slate-900">IPTV satın al 2025-2026</strong> teknolojisi. 
+            <strong className="font-bold text-slate-900">IPTV satın al</strong>, <strong className="font-bold text-slate-900">IPTV test yayını</strong> iste. 
+            WhatsApp ile anında <strong className="font-bold text-slate-900">IPTV satın al</strong> işlemi.
           </p>
         </div>
 

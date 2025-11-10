@@ -4,10 +4,10 @@ import FloatingContact from "@/components/FloatingContact";
 import HakkimizdaContent from "./HakkimizdaContent";
 
 export const metadata = {
-  title: "Hakkımızda - Tulya IPTV | Türkiye'nin Premium IPTV Platformu",
+  title: "IPTV Satın Al - Hakkımızda | Tulya IPTV 2025-2026",
   description:
-    "Tulya IPTV hakkında. 2020'den beri HD-4K kalitede 10.000+ kanal, 15.000+ kullanıcı, %99.9 uptime. Bein Sports, Lig TV, spor kanalları ve dünya yayınları.",
-  keywords: "tulya iptv hakkında, iptv türkiye, lig tv izle, bein sports iptv, premium iptv",
+    "IPTV satın al Tulya IPTV'den. 2020'den beri HD-4K kalitede 10.000+ kanal. IPTV satın al güvenle, 15.000+ kullanıcı, %99.9 uptime. Premium IPTV satın al.",
+  keywords: "iptv satın al, tulya iptv hakkında, iptv satın al 2025, güvenilir iptv satın al, premium iptv, iptv paketleri",
 };
 
 export default function HakkimizdaPage() {

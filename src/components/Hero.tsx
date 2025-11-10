@@ -78,7 +78,7 @@ export default function Hero() {
 
             <p className="mb-6 md:mb-10 text-base sm:text-lg md:text-xl leading-relaxed text-slate-600">
               <strong className="font-bold text-slate-900">Donmayan IPTV</strong> ile 
-              Lig TV, Bein Sports ve tüm spor kanallarını izleyin.
+              tüm spor kanallarını ve dünya yayınlarını izleyin.
               <br className="hidden sm:block" />
               <strong className="font-bold text-slate-900">En ucuz IPTV paketleri</strong>, 
               HD-4K kalitede kesintisiz yayın.
@@ -178,7 +178,7 @@ export default function Hero() {
                   <p className="text-[10px] md:text-xs font-bold uppercase tracking-wider text-slate-700">4K</p>
                 </div>
                 <div className="rounded-lg md:rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 py-2 md:py-3 text-center">
-                  <p className="text-[10px] md:text-xs font-bold uppercase tracking-wider text-white">Lig TV</p>
+                  <p className="text-[10px] md:text-xs font-bold uppercase tracking-wider text-white">SPOR</p>
                 </div>
               </div>
             </div>

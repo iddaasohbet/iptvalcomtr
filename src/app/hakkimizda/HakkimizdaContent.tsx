@@ -28,11 +28,12 @@ export default function HakkimizdaContent() {
             </p>
 
             <p className="mx-auto max-w-3xl text-xl leading-relaxed text-slate-600">
-              2020 yılından bu yana <strong className="font-bold text-slate-900">donmayan IPTV</strong> hizmeti sunuyoruz. 
+              2020 yılından bu yana <strong className="font-bold text-slate-900">IPTV satın al</strong> hizmeti sunuyoruz. 
+              2025-2026 dönemi <strong className="font-bold text-slate-900">donmayan IPTV</strong> lideri. 
               <strong className="font-bold text-slate-900">IPTV satın al</strong>, 
               <strong className="font-bold text-slate-900">IPTV üyelik</strong> için 
               en güvenilir adres. HD-4K kalitede <strong className="font-bold text-slate-900">iptv paketleri</strong>, 
-              7/24 WhatsApp destek ile <strong className="font-bold text-slate-900">en iyi IPTV</strong> deneyimi.
+              7/24 WhatsApp destek ile <strong className="font-bold text-slate-900">IPTV satın al</strong> işlemi kolay.
             </p>
           </motion.div>
         </div>
@@ -52,13 +53,14 @@ export default function HakkimizdaContent() {
               <strong className="font-bold text-slate-900">Tulya IPTV</strong>, 
               <strong className="font-bold text-slate-900">IPTV satın al</strong> arayanlar için 
               <strong className="font-bold text-slate-900">en iyi IPTV</strong> çözümü sunar. 
-              <strong className="font-bold text-slate-900">Donmayan IPTV 2024</strong> teknolojisi ile 
+              <strong className="font-bold text-slate-900">Donmayan IPTV 2025-2026</strong> teknolojisi ile 
+              <strong className="font-bold text-slate-900">IPTV satın al</strong> işlemlerinizde 
               Türkiye'nin en güvenilir IPTV platformuyuz.
             </p>
 
             <p>
               <strong className="font-bold text-slate-900">10.000+ donmayan kanal</strong> 
-              ile Lig TV, Bein Sports, S Sport, TRT ve tüm dünya kanallarını HD-4K kalitede izleyin. 
+              ile tüm spor kanalları, ulusal ve dünya kanallarını HD-4K kalitede izleyin. 
               <strong className="font-bold text-slate-900">IPTV paketleri</strong> arasından 
               size uygun olanı seçin. <strong className="font-bold text-slate-900">En ucuz IPTV</strong> 
               fiyatlarıyla <strong className="font-bold text-slate-900">IPTV üyelik</strong> avantajı.
