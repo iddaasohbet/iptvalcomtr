@@ -4,10 +4,10 @@ import FloatingContact from "@/components/FloatingContact";
 import HakkimizdaContent from "./HakkimizdaContent";
 
 export const metadata = {
-  title: "IPTV Satın Al - Hakkımızda | Tulya IPTV 2025-2026",
+  title: "IPTV Satın Al - Hakkımızda | IPTVal 2025-2026",
   description:
-    "IPTV satın al Tulya IPTV'den. 2020'den beri HD-4K kalitede 10.000+ kanal. IPTV satın al güvenle, 15.000+ kullanıcı, %99.9 uptime. Premium IPTV satın al.",
-  keywords: "iptv satın al, tulya iptv hakkında, iptv satın al 2025, güvenilir iptv satın al, premium iptv, iptv paketleri",
+    "IPTV satın al IPTVal'den. 2020'den beri HD-4K kalitede 10.000+ kanal. IPTV satın al güvenle, 15.000+ kullanıcı, %99.9 uptime. Premium IPTV satın al.",
+  keywords: "iptv satın al, iptval hakkında, iptv satın al 2025, güvenilir iptv satın al, premium iptv, iptv paketleri",
 };
 
 export default function HakkimizdaPage() {

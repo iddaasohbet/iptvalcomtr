@@ -36,7 +36,7 @@ export default function Footer() {
               />
             </div>
             <div className="text-left">
-              <div className="text-2xl font-black text-white">Tulya IPTV</div>
+              <div className="text-2xl font-black text-white">IPTVal</div>
               <div className="text-[10px] font-bold uppercase tracking-wider text-orange-500">Premium Service</div>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Footer() {
           </motion.a>
 
           <motion.a
-            href="mailto:info@tulyaiptv.com"
+            href="mailto:info@iptval.com.tr"
             whileHover={{ y: -4 }}
             className="flex items-center gap-4 rounded-xl border border-slate-700 bg-slate-800/50 p-6 transition-all hover:border-orange-500"
           >
@@ -76,7 +76,7 @@ export default function Footer() {
             </div>
             <div className="text-left">
               <p className="text-xs font-semibold uppercase text-slate-500">E-posta</p>
-              <p className="font-bold text-white">info@tulyaiptv.com</p>
+              <p className="font-bold text-white">info@iptval.com.tr</p>
             </div>
           </motion.a>
 
@@ -91,7 +91,7 @@ export default function Footer() {
             </div>
             <div className="text-left">
               <p className="text-xs font-semibold uppercase text-slate-500">Instagram</p>
-              <p className="font-bold text-white">@tulyaiptv</p>
+              <p className="font-bold text-white">@iptval</p>
             </div>
           </motion.a>
         </div>
@@ -100,7 +100,7 @@ export default function Footer() {
         <div className="border-t border-slate-700 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-slate-500">
-              © {new Date().getFullYear()} <span className="font-bold text-slate-400">Tulya IPTV</span> • Tüm hakları saklıdır.
+              © {new Date().getFullYear()} <span className="font-bold text-slate-400">IPTVal</span> • Tüm hakları saklıdır.
             </p>
             <Link
               href="https://www.dijitalwebsite.com/"

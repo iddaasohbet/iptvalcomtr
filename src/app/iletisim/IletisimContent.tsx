@@ -79,11 +79,11 @@ export default function IletisimContent() {
                     E-posta
                   </h3>
                   <a
-                    href="mailto:info@tulyaiptv.com"
+                    href="mailto:info@iptval.com.tr"
                     className="group inline-block"
                   >
                     <p className="text-3xl font-black text-slate-900 transition-colors group-hover:text-orange-600">
-                      info@tulyaiptv.com
+                      info@iptval.com.tr
                     </p>
                   </a>
                   <p className="mt-2 text-sm text-slate-600">

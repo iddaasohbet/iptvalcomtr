@@ -20,7 +20,7 @@ export default function HakkimizdaContent() {
             </div>
 
             <h1 className="mb-6 text-6xl font-black leading-tight text-slate-900 lg:text-7xl">
-              Tulya IPTV
+              IPTVal
             </h1>
 
             <p className="mb-4 text-3xl font-bold text-orange-600">
@@ -44,13 +44,13 @@ export default function HakkimizdaContent() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-5xl font-black text-slate-900">
-              Tulya IPTV Kimdir?
+              IPTVal Kimdir?
             </h2>
           </div>
 
           <div className="space-y-8 text-lg leading-relaxed text-slate-700">
             <p>
-              <strong className="font-bold text-slate-900">Tulya IPTV</strong>, 
+              <strong className="font-bold text-slate-900">IPTVal</strong>, 
               <strong className="font-bold text-slate-900">IPTV satın al</strong> arayanlar için 
               <strong className="font-bold text-slate-900">en iyi IPTV</strong> çözümü sunar. 
               <strong className="font-bold text-slate-900">Donmayan IPTV 2025-2026</strong> teknolojisi ile 

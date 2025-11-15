@@ -71,7 +71,7 @@ export default function Header() {
           </div>
           <div>
             <div className="text-xl font-black text-slate-900 transition-colors group-hover:text-orange-600">
-              Tulya IPTV
+              IPTVal
             </div>
             <div className="text-[9px] font-bold uppercase tracking-wider text-orange-600">
               Premium Service

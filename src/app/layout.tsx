@@ -11,8 +11,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "IPTV Satın Al - Donmayan IPTV Paketleri | Tulya IPTV",
-    template: "%s | Tulya IPTV",
+    default: "IPTV Satın Al - Donmayan IPTV Paketleri | IPTVal",
+    template: "%s | IPTVal",
   },
   description:
     "IPTV satın al 2025-2026! En ucuz IPTV paketleri, IPTV satın al hemen. Donmayan IPTV, IPTV üyelik, IPTV test. Premium spor kanalları HD-4K. IPTV satın al WhatsApp ile 7/24.",
@@ -37,35 +37,35 @@ export const metadata: Metadata = {
     "iptv satın al whatsapp",
     "güvenilir iptv satın al",
   ],
-  metadataBase: new URL("https://www.tulyaiptv.com"),
-  authors: [{ name: "Tulya IPTV" }],
-  creator: "Tulya IPTV",
-  publisher: "Tulya IPTV",
+  metadataBase: new URL("https://www.iptval.com.tr"),
+  authors: [{ name: "IPTVal" }],
+  creator: "IPTVal",
+  publisher: "IPTVal",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Tulya IPTV - Premium IPTV Hizmetleri",
+    title: "IPTVal - Premium IPTV Hizmetleri",
     description:
       "HD kalitesinde binlerce kanal, kesintisiz yayın, 7/24 destek.",
     type: "website",
     locale: "tr_TR",
-    url: "https://www.tulyaiptv.com",
-    siteName: "Tulya IPTV",
+    url: "https://www.iptval.com.tr",
+    siteName: "IPTVal",
     images: [
       {
         url: "/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Tulya IPTV - Premium IPTV",
+        alt: "IPTVal - Premium IPTV",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tulya IPTV - Premium IPTV Hizmetleri",
+    title: "IPTVal - Premium IPTV Hizmetleri",
     description:
       "HD kalitesinde binlerce kanal, kesintisiz yayın.",
     images: ["/og-image.webp"],
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.tulyaiptv.com",
+    canonical: "https://www.iptval.com.tr",
   },
   verification: {
     google: "4DpDjqUi8gFMVAmeHI3ecoozocYDPkwjfMCOslatS34",

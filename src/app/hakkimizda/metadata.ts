@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda - Tulya IPTV | Türkiye'nin Premium IPTV Platformu",
+  title: "Hakkımızda - IPTVal | Türkiye'nin Premium IPTV Platformu",
   description:
-    "Tulya IPTV hakkında bilgi edinin. 2020'den beri HD-4K kalitede 10.000+ kanal, 15.000+ kullanıcı, %99.9 uptime. Türkiye'nin güvenilir IPTV hizmeti.",
+    "IPTVal hakkında bilgi edinin. 2020'den beri HD-4K kalitede 10.000+ kanal, 15.000+ kullanıcı, %99.9 uptime. Türkiye'nin güvenilir IPTV hizmeti.",
   keywords: [
-    "tulya iptv hakkında",
+    "iptval hakkında",
     "iptv şirketi",
     "iptv hizmet sağlayıcı",
     "türkiye iptv",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "premium iptv türkiye",
   ],
   openGraph: {
-    title: "Hakkımızda - Tulya IPTV",
+    title: "Hakkımızda - IPTVal",
     description: "Türkiye'nin premium IPTV platformu. 10.000+ kanal, 7/24 destek.",
     type: "website",
   },

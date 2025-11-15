@@ -1,4 +1,4 @@
-# Tulya IPTV - Premium IPTV Platform
+# IPTVal - Premium IPTV Platform
 
 Modern Next.js ile geliştirilmiş profesyonel IPTV satış ve tanıtım sitesi.
 
