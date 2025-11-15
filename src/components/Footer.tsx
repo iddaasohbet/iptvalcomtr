@@ -98,17 +98,21 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="border-t border-slate-700 pt-8">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+          <div className="flex flex-col items-center gap-4 text-center">
             <p className="text-sm text-slate-500">
               © {new Date().getFullYear()} <span className="font-bold text-slate-400">IPTVal</span> • Tüm hakları saklıdır.
             </p>
-            <Link
-              href="https://www.dijitalwebsite.com/"
-              target="_blank"
-              className="text-sm font-semibold text-orange-500 transition-colors hover:text-orange-400"
-            >
-              Dijital Website
-            </Link>
+            <p className="text-xs text-slate-600">
+              Designed & Developed by{" "}
+              <Link
+                href="https://www.dijitalwebsite.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-slate-500 transition-colors hover:text-orange-500"
+              >
+                Dijital Website
+              </Link>
+            </p>
           </div>
         </div>
       </div>
