@@ -36,13 +36,13 @@ export default function Footer() {
               />
             </div>
             <div className="text-left">
-              <div className="text-2xl font-black text-white">IPTVal</div>
-              <div className="text-[10px] font-bold uppercase tracking-wider text-orange-500">Premium Service</div>
+              <div className="text-2xl font-black text-white">İP TV SATIN AL</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-orange-500">Donmayan & HD Kalite</div>
             </div>
           </div>
 
           <p className="mx-auto max-w-2xl text-base text-slate-400">
-            Premium IPTV hizmeti ile kesintisiz TV deneyimi
+            Donmayan IPTV satın al, HD ve 4K kalitede binlerce kanal. Kesintisiz yayın deneyimi.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export default function Footer() {
         <div className="border-t border-slate-700 pt-8">
           <div className="flex flex-col items-center gap-4 text-center">
             <p className="text-sm text-slate-500">
-              © {new Date().getFullYear()} <span className="font-bold text-slate-400">IPTVal</span> • Tüm hakları saklıdır.
+              © {new Date().getFullYear()} <span className="font-bold text-slate-400">İP TV Satın Al</span> • Tüm hakları saklıdır.
             </p>
             <p className="text-xs text-slate-600">
               Designed & Developed by{" "}
