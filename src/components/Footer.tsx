@@ -36,14 +36,22 @@ export default function Footer() {
               />
             </div>
             <div className="text-left">
-              <div className="text-2xl font-black text-white">İP TV SATIN AL</div>
-              <div className="text-[10px] font-bold uppercase tracking-wider text-orange-500">Donmayan & HD Kalite</div>
+              <div className="text-2xl font-black text-white">IPTV AL</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-orange-500">iptv satın al</div>
             </div>
           </div>
 
           <p className="mx-auto max-w-2xl text-base text-slate-400">
             Donmayan IPTV satın al, HD ve 4K kalitede binlerce kanal. Kesintisiz yayın deneyimi.
           </p>
+          
+          {/* Quick Links */}
+          <div className="mt-6 flex justify-center gap-6">
+            <Link href="/" className="text-sm text-slate-400 hover:text-orange-500 transition-colors">Ana Sayfa</Link>
+            <Link href="/hakkimizda" className="text-sm text-slate-400 hover:text-orange-500 transition-colors">Hakkımızda</Link>
+            <Link href="/iletisim" className="text-sm text-slate-400 hover:text-orange-500 transition-colors">İletişim</Link>
+            <Link href="/iptv-al" className="text-sm text-orange-500 hover:text-orange-400 transition-colors font-bold">IPTV Al Rehberi</Link>
+          </div>
         </div>
 
         {/* Contact Cards - Horizontal */}
@@ -100,7 +108,7 @@ export default function Footer() {
         <div className="border-t border-slate-700 pt-8">
           <div className="flex flex-col items-center gap-4 text-center">
             <p className="text-sm text-slate-500">
-              © {new Date().getFullYear()} <span className="font-bold text-slate-400">İP TV Satın Al</span> • Tüm hakları saklıdır.
+              © {new Date().getFullYear()} <span className="font-bold text-slate-400">IPTV AL</span> • Tüm hakları saklıdır.
             </p>
             <p className="text-xs text-slate-600">
               Designed & Developed by{" "}
